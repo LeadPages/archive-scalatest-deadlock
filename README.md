@@ -37,6 +37,10 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 
 Here's a more complete example:
 ```
+% java -version
+java version "1.8.0_121"
+Java(TM) SE Runtime Environment (build 1.8.0_121-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
 % sbt -Dsbt.log.noformat=true 'set scalaVersion := "2.11.9"' setup scalaVersion test >> README.md
 [info] Loading project definition from /Users/aleckoss/work/scalatest-deadlock/project
 [info] Set current project to scalatest-deadlock (in build file:/Users/aleckoss/work/scalatest-deadlock/)
